@@ -19,13 +19,13 @@ export default class App extends Component {
             <NavBar/> 
 
             <Routes>
-              <Route exact path="/"element={<News key="home" pageSize={this.pageSize} country="in" category="general" />}/>
-              <Route exact path="/business"element={<News key="business" pageSize={this.pageSize} country="in" category="business" />}/>
-              <Route exact path="/entertainment"element={<News key="entertaiment" pageSize={this.pageSize} country="in" category="entertainment" />}/>
-              <Route exact path="/health"element={<News key="health" pageSize={this.pageSize} country="in" category="health" />}/>
-              <Route exact path="/sports"element={<News key="sports" pageSize={this.pageSize} country="in" category="sports" />}/>
-              <Route exact path="/science"element={<News key="science" pageSize={this.pageSize} country="in" category="science" />}/>
-              <Route exact path="/technology"element={<News key="technology" pageSize={this.pageSize} country="in" category="technology" />}/>
+              <Route exact path="https://ddharmani3.github.io/News-Monkey/"element={<News key="home" pageSize={this.pageSize} country="in" category="general" />}/>
+              <Route exact path="https://ddharmani3.github.io/News-Monkey/business"element={<News key="business" pageSize={this.pageSize} country="in" category="business" />}/>
+              <Route exact path="https://ddharmani3.github.io/News-Monkey/entertainment"element={<News key="entertaiment" pageSize={this.pageSize} country="in" category="entertainment" />}/>
+              <Route exact path="https://ddharmani3.github.io/News-Monkey/health"element={<News key="health" pageSize={this.pageSize} country="in" category="health" />}/>
+              <Route exact path="https://ddharmani3.github.io/News-Monkey/sports"element={<News key="sports" pageSize={this.pageSize} country="in" category="sports" />}/>
+              <Route exact path="https://ddharmani3.github.io/News-Monkey/science"element={<News key="science" pageSize={this.pageSize} country="in" category="science" />}/>
+              <Route exact path="https://ddharmani3.github.io/News-Monkey/technology"element={<News key="technology" pageSize={this.pageSize} country="in" category="technology" />}/>
             </Routes>
 
           </Router>
