@@ -1,0 +1,71 @@
+{
+    "status": "ok",
+    "totalResults": 5,
+    "articles": [
+        {
+            "source": {
+                "id": "the-huffington-post",
+                "name": "The Huffington Post"
+            },
+            "author": "AP",
+            "title": "Paul Sorvino, 'Goodfellas' And 'Law & Order' Actor, Dies At 83",
+            "description": "In his over 50 years in the entertainment business, Sorvino was a mainstay in films and television.",
+            "url": "https://www.huffpost.com/entry/paul-sorvino-dead-dies_n_62dedf7be4b081f3a9025dd1",
+            "urlToImage": "https://img.huffingtonpost.com/asset/62dedfd7210000a8b35f0cb7.jpg?cache=h4hz4Rd5Od&ops=1778_1000",
+            "publishedAt": "2022-07-25T18:28:18Z",
+            "content": "Paul Sorvino arrives at the 29th annual Producers Guild Awards at the Beverly Hilton on Saturday, Jan. 20, 2018, in Beverly Hills, Calif. Sorvino, an imposing actor who specialized in playing crooks … [+1938 chars]"
+        },
+        {
+            "source": {
+                "id": "engadget",
+                "name": "Engadget"
+            },
+            "author": "https://www.engadget.com/about/editors/igor-bonifacic",
+            "title": "'The Lord of the Rings: Gollum' is delayed a month before launch | Engadget",
+            "description": "Daedalic Entertainment has delayed The Lord of the Rings: Gollum a little more than five weeks before it was due to debut on September 1st..",
+            "url": "https://www.engadget.com/the-lord-of-the-rings-gollum-delay-a-few-month-180604089.html",
+            "urlToImage": "https://s.yimg.com/os/creatr-uploaded-images/2022-07/a75b8b10-0c43-11ed-bcec-7d6043656211",
+            "publishedAt": "2022-07-25T18:22:24.8789306Z",
+            "content": "Daedalic Entertainment has delayed The Lord of the Rings: Gollum a little more than five weeks before it was due to debut on September 1st. The studio took to Twitter on Monday to announce it would n… [+827 chars]"
+        },
+        {
+            "source": {
+                "id": "polygon",
+                "name": "Polygon"
+            },
+            "author": "Michael McWhertor",
+            "title": "Apex Legends' new legend Vantage, Hunted update release date announced",
+            "description": "Respawn Entertainment revealed Apex Legends' newest character, Vantage (and her pet bat Echo), in an update on the Hunted patch coming to the free-to-play shooter.",
+            "url": "https://www.polygon.com/23277368/apex-legends-new-legend-vantage-release-date",
+            "urlToImage": "https://cdn.vox-cdn.com/thumbor/JKB4J5GLrRFaRuvUThRJPsJnVJE=/0x0:1920x1005/fit-in/1200x630/cdn.vox-cdn.com/uploads/chorus_asset/file/23898025/apex_legends_vantage.jpg",
+            "publishedAt": "2022-07-25T16:17:23Z",
+            "content": "Vantage and Echo come to Respawns shooter in August"
+        },
+        {
+            "source": {
+                "id": "the-washington-times",
+                "name": "The Washington Times"
+            },
+            "author": "The Washington Times http://www.washingtontimes.com",
+            "title": "Latest Quizzes",
+            "description": "Take a break from the hard news of the day and enjoy a quiz on entertainment, sports, history and politics only from The Washington Times.",
+            "url": "https://www.washingtontimes.com/quiz/",
+            "urlToImage": null,
+            "publishedAt": "2021-02-10T03:52:37.2719772Z",
+            "content": "Featured Quizzes\r\nAttention all William Shakespeare experts. Pinpoint the prose's origin plucked from one of his many famous plays in this multiple-choice challenge.\r\n Shares \r\nName these legendary c… [+32652 chars]"
+        },
+        {
+            "source": {
+                "id": "the-lad-bible",
+                "name": "The Lad Bible"
+            },
+            "author": null,
+            "title": "Breaking Entertainment News - Celebrity & Showbiz News | LADbible",
+            "description": "The latest entertainment news in the UK and worldwide on LADbible. We cover breaking celebrity news and showbiz stories. Check out our exclusives.",
+            "url": "https://www.theladbible.com/entertainment",
+            "urlToImage": null,
+            "publishedAt": "2020-06-18T14:07:50.1068606Z",
+            "content": "Netflix's new fantasy show, Cursed, will launch on 17 July"
+        }
+    ]
+}
