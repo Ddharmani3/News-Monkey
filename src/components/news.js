@@ -75,7 +75,7 @@ export class news extends Component {
   render() {
     return (
       <>
-        <h1 className="text-center mb-3" style={{marginTop:"75px"}}>Top {this.capitalizeFirstLetter(this.props.category)} Headline by News Monkey</h1>
+        <h1 className="text-center mb-3" style={{marginTop:"75px"}}>Top {(this.props.category==="general")?"": this.capitalizeFirstLetter(this.props.category)} Headline by News Monkey</h1>
         {/* {this.state.loading && <Spinner />} */}
 
        
@@ -85,15 +85,17 @@ export class news extends Component {
   next={this.fetchMoreData}
   hasMore={this.state.articles.length!==this.state.totalres}
   loader={<Spinner/>}
-    endMessage={
+  //   endMessage={
       
-          <Spinner/>
+  //         // <Spinner/>
           
-    //       if(this.state.articles.length===this.state.totalres){
-    // <p style={{ textAlign: 'center' }}>
-    //   <b>Yay! You have Read all the headlines for {this.capitalizeFirstLetter(this.props.category)} Category</b>
-    // </p>}
-  }> 
+  //   //       if(this.state.articles.length===this.state.totalres){
+  //   // <p style={{ textAlign: 'center' }}>
+  //   //   <b>Yay! You have Read all the headlines for {this.capitalizeFirstLetter(this.props.category)} Category</b>
+  //   // </p>
+  // }
+    // }
+  > 
     <div className="container">
 
     <div className="row">
