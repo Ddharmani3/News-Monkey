@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
-import {
-  Link
-} from "react-router-dom";
+import { NavLink } from 'react-router-dom';
+
+// import { NavLink } from 'react-router-hash-link';
 
 export class NavBar extends Component {
   static propTypes = {}
@@ -20,22 +20,22 @@ export class NavBar extends Component {
       <>
         <nav className="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" >
           <div className="container-fluid">
-            <Link className="navbar-brand" to="/">News Monkey</Link>
+            <NavLink className="navbar-brand" exact to="/">News Monkey</NavLink>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0">
                 <li className="nav-item">
-                  <Link className="nav-link active" aria-current="page" to="https://ddharmani3.github.io/News-Monkey/">Home</Link>
+                  <NavLink className="nav-link active" aria-current="page" exact to="/">Home</NavLink>
                 </li>
                 
-                <li className="nav-item"><Link className="nav-link" to="https://ddharmani3.github.io/News-Monkey/business">Business</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="https://ddharmani3.github.io/News-Monkey/entertainment">Entertainment</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="https://ddharmani3.github.io/News-Monkey/health">Health</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="https://ddharmani3.github.io/News-Monkey/sports">Sports</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="https://ddharmani3.github.io/News-Monkey/science">Science</Link></li>
-                <li className="nav-item"><Link className="nav-link" to="https://ddharmani3.github.io/News-Monkey/technology">Technology</Link></li>
+                <li className="nav-item"><NavLink className="nav-link" exact to="/business">Business</NavLink></li>
+                <li className="nav-item"><NavLink className="nav-link" exact to="/ent">Entertainment</NavLink></li>
+                <li className="nav-item"><NavLink className="nav-link" exact to="#hlth">Health</NavLink></li>
+                <li className="nav-item"><NavLink className="nav-link" exact to="#spo">Sports</NavLink></li>
+                <li className="nav-item"><NavLink className="nav-link" exact to="#sci">Science</NavLink></li>
+                <li className="nav-item"><NavLink className="nav-link" exact to="#tech">Technology</NavLink></li>
 
                 {/* <li className="nav-item">
                 <a className="nav-link disabled">Disabled</a>
@@ -45,14 +45,14 @@ export class NavBar extends Component {
 
               </ul>
               {/* <div className="dropdown mx-1">
-                <Link className="btn btn-primary dropdown-toggle " to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <NavLink className="btn btn-primary dropdown-toggle " to="/" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                   {"Country"}
-                </Link> */}
+                </NavLink> */}
 
                 {/* <ul className="dropdown-menu">
-                  <li><Link className="dropdown-item" to="/" onClick={() => { this.setState = { country: "in" } }}>India</Link></li>
-                  <li><Link className="dropdown-item" to="/" onClick={() => { this.setState = { country: "us" } }}>US</Link></li>
-                  <li><Link className="dropdown-item" to="/" onClick={() => { this.setState = { country: "" } }}>World</Link></li>
+                  <li><NavLink className="dropdown-item" to="/" onClick={() => { this.setState = { country: "in" } }}>India</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/" onClick={() => { this.setState = { country: "us" } }}>US</NavLink></li>
+                  <li><NavLink className="dropdown-item" to="/" onClick={() => { this.setState = { country: "" } }}>World</NavLink></li>
                 </ul> */}
               {/* </div> */}
               <form className="d-flex" role="search">
