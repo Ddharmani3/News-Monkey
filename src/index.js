@@ -11,7 +11,7 @@ import {
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <HashRouter basename={window.location.pathname || ''}>
+    <HashRouter basename={process.env.PUBLIC_URL}>
     <App />
     </HashRouter>
   </React.StrictMode>
